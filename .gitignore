@@ -1,0 +1,5 @@
+.run/
+sunshine.conf
+vdisplay-src/.build/
+.DS_Store
+*.log
