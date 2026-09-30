@@ -10,8 +10,10 @@ Mac 创建独立虚拟显示器，用 [Sunshine](https://github.com/LizardByte/S
 
 ## 日常使用
 
+首次使用时，在完整的 `dell-display` 文件夹中双击 `安装桌面快捷方式.command`，它会在桌面生成“连接”和“断开”两个入口，指向项目内的脚本。保留项目文件夹；移动项目后重新运行安装工具。单独复制原始 `.command` 到桌面会找不到它依赖的 `.sh` 文件。
+
 1. 保持两台电脑间的 USB4 数据线连接。
-2. 在 Mac 双击 `连接 Dell 扩展屏.command`。显示“Mac 端已启动”后即可关闭终端窗口，投屏程序会继续运行。
+2. 在 Mac 双击桌面上的 `连接 Dell 扩展屏.command`。显示“Mac 端已启动”后即可关闭终端窗口，投屏程序会继续运行。
 3. 在 Dell 打开 Moonlight，选择已配对的 Mac，然后打开 `Desktop`。
 4. 用完后在 Mac 双击 `断开 Dell 扩展屏.command`。下次使用时重复第 2、3 步。
 
